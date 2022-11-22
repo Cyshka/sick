@@ -1,0 +1,21 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Tue 2022-11-22 12:26:48 +03; 41s ago
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 9540 (dockerd)
+      Tasks: 13
+     Memory: 23.2M
+     CGroup: /system.slice/docker.service
+             └─9540 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.176018253+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.176032870+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.176037089+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.176148532+03:00" level=info msg="Loading containers: start."
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.250164289+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.283780618+03:00" level=info msg="Loading containers: done."
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.298444402+03:00" level=info msg="Docker daemon" commit=3056208 graphdriver(s)=overlay2 version=20.10.21
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.298544352+03:00" level=info msg="Daemon has completed initialization"
+ліс 22 12:26:48 dima-Nitro-AN515-55 systemd[1]: Started Docker Application Container Engine.
+ліс 22 12:26:48 dima-Nitro-AN515-55 dockerd[9540]: time="2022-11-22T12:26:48.314877586+03:00" level=info msg="API listen on /run/docker.sock"
